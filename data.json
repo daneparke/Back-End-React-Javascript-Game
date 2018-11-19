@@ -1,0 +1,39 @@
+[
+    {
+        "grunt": {
+            "items": [
+                "Potion",
+                "Dagger",
+                "Bow",
+                "Bread",
+                "Arrows",
+                "Leather Armor"
+            ]
+        }
+    },
+    {
+        "troll": {
+            "items": [
+                "Potion",
+                "Club",
+                "Bow",
+                "Arrows",
+                "Iron Armor"
+            ]
+        }
+    },
+    {
+        "bat": {
+            "items": [
+                "Potion"
+            ]
+        }
+    },
+    {
+        "frog": {
+            "items": [
+                "Potion"
+            ]
+        }
+    }
+]
