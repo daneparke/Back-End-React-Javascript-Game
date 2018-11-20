@@ -1,6 +1,8 @@
 [
     {
         "grunt": {
+            "name": "Grunt",
+            "health": 9,
             "items": [
                 "Potion",
                 "Dagger",
@@ -13,6 +15,8 @@
     },
     {
         "troll": {
+            "name": "Troll",
+            "health": 21,
             "items": [
                 "Potion",
                 "Club",
@@ -24,6 +28,8 @@
     },
     {
         "bat": {
+            "name": "Bat",
+            "health": 1,
             "items": [
                 "Potion"
             ]
@@ -31,6 +37,8 @@
     },
     {
         "frog": {
+            "name": "Frog",
+            "health": 3,
             "items": [
                 "Potion"
             ]

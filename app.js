@@ -9,8 +9,13 @@ const cors = require('cors')
 app.use(cors())
 // app.use(morgan('dev'))
 // app.use(bodyParser.json())
+const player = require('./player.json')
 
-const enemies = require('./data.json')
+app.get('/player', (req, res) => {
+    res.json({ player })
+})
+
+const enemies = require('./enemies.json')
 
 app.get('/enemies', (req, res) => {
     res.json({ enemies })
